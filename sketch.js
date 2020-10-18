@@ -80,13 +80,6 @@ function draw() {
   packageSprite.x= packageBody.position.x;
   packageSprite.y= packageBody.position.y;
   drawSprites();
-  
-  packageBody.position.x = helicopterSprite.x;
-  packageBody.position.y = helicopterSprite.y;
-
-  packageBody.position.x = mouseX;
-  packageBody.position.y = mouseY;
-
 
  
 }
